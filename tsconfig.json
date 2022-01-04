@@ -1,0 +1,11 @@
+{
+  "extends": "fastify-tsconfig",  
+  "compilerOptions": {
+    "declaration": true,
+    // "esModuleInterop": true,
+    "allowJs": true,
+   "checkJs": false,
+    "outDir": "dist",
+  },
+  "include": ["src/**/*.ts", "get-jwks.d.ts"]
+}
